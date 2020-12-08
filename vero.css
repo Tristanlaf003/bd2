@@ -1,0 +1,436 @@
+/*   https://studiodivo.fr/portfolio_page/boutique-magasin-bio/  
+*/
+
+body
+{
+    background-color : rgba(192,192,192,0.3);
+}
+
+#title
+{   
+   display: flex;
+   flex-direction: row;
+/*	 justify-content : space-around; */
+/*   flew-wrap: wrap;   */   /* les blocks irons directement à la ligne quand ils n'aurons plus de place */
+/*   justify-content : center;         /*flex-start; flex-end; center; space-between; space-around*/
+/*   height : aapx;     */
+/*   align-items: space-between;        /* flex-start; flex-end; center; space-between; space-around; baseline*/
+   position : relative;
+   height : 75px;
+   /*width : 1300px;*/
+   margin : auto;
+   background-color : blue;
+   padding-top : 20px;
+   padding-bottom : 20px;
+   padding-left : 20px;
+   padding-right : 20px;
+   /*border-radius : 5px;*/
+}
+
+.element4
+{
+	height : 30px;
+	text-align : center;
+	border : 1px solid blue;
+}
+
+.element4:nth-child(1)
+{   
+	background-color : white;
+	border : 1px solid blue;
+	font-size: 150%;
+    flex: 4;    /*l'element de couleur orange prendra tout l'espace restant. */
+}
+
+.element4:nth-child(2)
+{
+	background-color : white;
+	border : 1px solid blue;
+	flex: 1;
+	/*min-width: 300px;*/
+}
+
+.element4:nth-child(3)
+{
+	background-color : white;
+	border : 1px solid blue;
+	flex: 1;
+}
+
+.element4:nth-child(4)
+{
+	background-color : white;
+	border : 1px solid blue;
+	flex: 1;
+}
+
+.element4:nth-child(5)
+{
+	background-color : white;
+	border : 1px solid blue;
+	flex: 1;
+}
+.element5
+{
+	height : 30px;
+	text-align : center;
+	border : 1px solid blue;
+}
+/*
+.error 
+{
+	color: #FF0000;
+}
+*/
+
+#img_grandeur_1
+{ /* Les images des produits qui defilent lorqu on selectionne une categorie */
+	float : left;
+	width : 510px;
+	height : 500px;
+	margin : 5px auto;
+	/*border : 1px solid yellow;*/
+}
+
+.commentaire_post
+{
+	float : left;
+	width : 490px;
+}
+
+/*
+#image
+{   
+	width: 100%;
+	margin : 20px auto;
+	display: block;
+	clear: both;
+}
+*/
+
+.Sections
+{
+	position : relative;
+	margin: 20px auto;
+	border : 1px solid blue;
+	border-radius : 5px;
+    /*min-height : 180px;*/
+	float : top;
+	padding : 10px;
+	width : 1150px;
+	background-color : rgba(192,192,192,0.3);
+}
+
+#login
+{   
+   display: flex;
+   flex-direction: row;
+/*	 justify-content : space-around; */
+/*   flew-wrap: wrap;   */   /* les blocks irons directement à la ligne quand ils n'aurons plus de place */
+/*   justify-content : flex-start; flex-end; center; space-between; space-around*/
+/*   height : aapx;     */
+/*   align-items: space-between;        /* flex-start; flex-end; center; space-between; space-around; baseline*/
+	position : relative;
+	margin: 20px auto;
+	border : 1px solid blue;
+	border-radius : 5px;
+    min-height : 580px;
+	float : top;
+	padding : 10px;
+	width : 1150px;
+	background-color : white;
+}
+
+.Categories
+{
+	position : relative;
+	margin: 20px auto;
+	border : 1px solid blue;
+	border-radius : 5px;
+    min-height : 180px;
+	float : top;
+	padding : 10px;
+	width : 1150px;
+	background-color : rgba(192,192,192,0.3);
+}
+
+.element2
+{
+	margin : 10px;
+	min-height : 580px;
+	padding : 10px;
+	background-color : rgba(192,192,192,0.3);
+	border : 1px solid rgba(192,192,192,0.3);
+	border-radius : 5px;
+}
+
+.element2:nth-child(1)
+{
+	width : 550px;
+	/*border: 1px solid blue;*/
+	/*flex: 1;    /*l'element de couleur orange prendra tout l'espace restant. */
+}
+
+.element2:nth-child(2)
+{
+	width : 550px;
+	/*border: 1px solid blue;*/
+	/* order: 1;  */
+}
+
+/*
+.suscription 
+{
+	position : relative;
+	margin-top : 50px;
+	padding-top : 10px;
+	padding-right : 100px;
+	padding-left : 20px;
+}
+
+.suscription_Add_Seller_Info
+{
+	position : relative;
+	margin : 50% auto;
+}
+
+.suscribe
+{
+	width : 200px;
+	height : 30px;
+	border-radius : 5px;
+}
+
+.suscribe_item 
+{
+	position : relative;
+	padding-left : 20px;
+	padding-right : 30px;
+	margin : 10px auto;
+	padding-top: 20px;
+	width : 50%;
+	height : 80%;
+	overflow-x: hidden;
+	border : 2px dashed green;
+}
+*/
+
+.Our_Purpose
+{
+	margin : 20px;
+	padding : 20px;
+	width : 480px;
+	/*height : 510px;*/
+	background-color : grey;
+	line-height : 30px;
+}
+
+.icon1
+{
+	width : 140px;
+	height : 140px;
+	border-radius: 150px;
+	position : absolute;
+	left : 50px;
+	top : 100px;
+}
+
+.icon1:hover
+{
+	width : 160px;
+	height : 160px;
+	border-radius: 150px;
+}
+
+.icon2
+{
+	width : 140px;
+	height : 140px;
+	border-radius: 150px;
+	position : absolute;
+	left : 360px;
+	top : 100px;
+}
+
+.icon2:hover
+{
+	width : 160px;
+	height : 160px;
+	border-radius: 150px;
+}
+
+.icon4
+{
+	width : 140px;
+	height : 140px;
+	border-radius: 150px;
+	position : absolute;
+	left : 50px;
+	top : 340px;
+}
+
+.icon4:hover
+{
+	width : 160px;
+	height : 160px;
+	border-radius : 150px;
+}
+
+.icon6
+{
+	width : 140px;
+	height : 140px;
+	border-radius: 150px;
+	position : absolute;
+	left : 360px;
+	top : 340px;
+}
+
+.icon6:hover
+{
+	width : 160px;
+	height : 160px;
+	border-radius : 150px;
+}
+
+.icon10
+{
+	width : 140px;
+	height : 140px;
+	float : left;
+	border-radius: 150px;
+	position : relative;
+	left : 100px;
+	/*top : 10px;*/
+}
+
+.icon10:hover
+{
+	border-radius : 150px;
+	border : 1px solid yellow;
+}
+
+.icon20
+{
+	width : 140px;
+	height : 140px;
+	float : left;
+	border-radius: 150px;
+	position : relative;
+	left : 200px;
+	/*top : 10px;*/
+}
+
+.icon20:hover
+{
+	border-radius : 150px;
+	border : 1px solid yellow;
+}
+
+.icon40
+{
+	width : 140px;
+	height : 140px;
+	float : left;
+	border-radius: 150px;
+	position : relative;
+	left : 400px;
+}
+
+.icon40:hover
+{
+	border-radius : 150px;
+	border : 1px solid yellow;
+}
+
+.icon60
+{
+	width : 140px;
+	height : 140px;
+	float : left;
+	border-radius: 150px;
+	position : relative;
+	left : 300px;
+}
+
+.icon60:hover
+{
+	border-radius : 150px;
+	border : 1px solid yellow;
+}
+
+.Vero_Mado
+{
+	width : 300px;
+	height : 225px;
+	border-radius: 150px;
+}
+
+.Vero
+{
+	width : 200px;
+	height : 200px;
+	border-radius: 150px;
+}
+
+.Vero_1
+{
+	position : absolute;
+	left : 330px;
+	top : 475px;
+	width : 200px;
+	height : 200px;
+	border-radius: 150px;
+}
+
+footer 
+{
+	margin-top: 20px;
+	min-height : 20px; 
+	/*float : bottom;*/
+    background-color : rgba(192,192,192,0.3);   /*  DOES NOT WORK  */
+    color : black;
+    text-align : center;
+	clear : both;
+	border : 1px solid rgba(192,192,192,0.3);
+}
+
+.center{
+	text-align: center;
+}
+
+.largeur{
+	margin-left: 400px;
+	margin-right: 400px;
+}
+
+.centerbouton{
+	margin-left: 125px;
+}
+
+.erreur{
+	color: red;
+}
+
+.success{
+	color: green;
+}
+
+.bouton-right{
+	alignment: right;
+}
+
+img{
+	max-width:180px;
+}
+
+.blanc{
+	background-color: white;
+}
+.margin-down{
+	margin-bottom: 5px;
+	text-align: right;
+}
+
+
+
